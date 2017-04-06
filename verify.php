@@ -1,9 +1,9 @@
 <?php
-$access_token = 'XXXXXXXXXXXXXXXXXXXXXXX';
+$access_token = 'oV8wffCwUlOesSdIucOllzOwy0U6Sj5AJlJ4eu1W6Ge6BSFm4GQcqtL9goIFkHfxtzFR22/Zjv2OfHwnTdcu64VjmFK0BDzFswitD2We2bKOp2RLzurYW4QpChUBbPoh0eMAv109HakqTouVT833VQdB04t89/1O/w1cDnyilFU=';
 
 $url = 'https://api.line.me/v1/oauth/verify';
 
-$headers = array('Authorization: Bearer ' . $oV8wffCwUlOesSdIucOllzOwy0U6Sj5AJlJ4eu1W6Ge6BSFm4GQcqtL9goIFkHfxtzFR22/Zjv2OfHwnTdcu64VjmFK0BDzFswitD2We2bKOp2RLzurYW4QpChUBbPoh0eMAv109HakqTouVT833VQdB04t89/1O/w1cDnyilFU=);
+$headers = array('Authorization: Bearer ' . $access_token);
 
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
